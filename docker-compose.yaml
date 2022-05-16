@@ -1,0 +1,33 @@
+version: '3.8'
+services:
+  www:
+    image: miguelgalvis317/miguel_apache:v1
+    ports:
+      - "8080:80"
+    networks:
+      - prueba 
+    depends_on:
+      - db 
+
+  db:
+    image: miguelgalvis317/mariadb:v1 
+    container_name: mysql_example 
+    volumes:
+      - container-volume:/var/lib/mysql
+      - ./db.sql:/docker-entrypoint-initdb.d/db.sql
+    environment:
+      MARIADB_ROOT_PASSWORD: secret 
+      MARIADB_USER: sampleuser 
+      MARIADB_PASSWORD: samplepass
+      MARIADB_DATABASE: sample
+    ports:
+      - "3306:3306"
+    networks:
+      - prueba
+
+volumes:
+  container-volume:
+
+networks:
+   prueba:
+     driver: bridge
