@@ -1,1 +1,18 @@
+Imágenes en DockerHub
 
+MariaDB
+https://hub.docker.com/repository/docker/miguelgalvis317/mariadb
+docker push miguelgalvis317/mariadb:v1
+
+Apache
+https://hub.docker.com/repository/docker/miguelgalvis317/miguel_apache
+
+docker push miguelgalvis317/miguel_apache:v1
+
+Instalar docker y docker-compose
+
+clonar con git el repositorio https://github.com/Mike317-Dev/Prueba_conocimiento.git
+git clone https://github.com/Mike317-Dev/Prueba_conocimiento.git
+
+ingresar a la carpeta clonada los archivos necesarios para el despliegue
+docker-compose up -d
