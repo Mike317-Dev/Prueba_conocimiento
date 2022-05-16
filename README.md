@@ -14,7 +14,8 @@ docker push miguelgalvis317/miguel_apache:v1
 
 Instalar docker y docker-compose
 
-clonar con git el repositorio https://github.com/Mike317-Dev/Prueba_conocimiento.git
+clonar el repositorio  https://github.com/Mike317-Dev/Prueba_conocimiento.git
+
 git clone https://github.com/Mike317-Dev/Prueba_conocimiento.git
 
 ingresar a la carpeta clonada los archivos necesarios para el despliegue
