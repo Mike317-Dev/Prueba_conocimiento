@@ -18,7 +18,7 @@ clonar el repositorio  https://github.com/Mike317-Dev/Prueba_conocimiento.git
 
 git clone https://github.com/Mike317-Dev/Prueba_conocimiento.git
 
-ingresar a la carpeta clonada los archivos necesarios para el despliegue
+ingresar a la carpeta clonada en la cual estan los archivos necesarios para el despliegue
 docker-compose up -d
 
 se debe agregar al archivo host:
