@@ -19,3 +19,5 @@ docker-compose up -d
 
 se debe agregar al archivo host:
 127.0.0.1 example.com
+
+si se desea construir desde cero usar el archivo docker-construccion.yaml
