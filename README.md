@@ -1,10 +1,13 @@
 Imágenes en DockerHub
 
 MariaDB
+
 https://hub.docker.com/repository/docker/miguelgalvis317/mariadb
+
 docker push miguelgalvis317/mariadb:v1
 
 Apache
+
 https://hub.docker.com/repository/docker/miguelgalvis317/miguel_apache
 
 docker push miguelgalvis317/miguel_apache:v1
